@@ -17,11 +17,13 @@ export default function Home() {
 
 <Features/>
 
-<Thumbprint/>
+
 
 
 
 <Gallery/>
+
+<Thumbprint/>
 
 <CallToAction/>
 
