@@ -1,0 +1,213 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components 
+{
+    .btn
+    {
+        @apply text-black/80  px-4 py-2 rounded-full tracking-wider text-sm font-futura font-heavy  text-nowrap
+    }
+
+    .btn-large
+    {
+            @apply text-base px-6  py-2 rounded-full tracking-wider font-futura font-heavy  text-nowrap
+        
+    }
+
+
+    .btn-primary 
+    {
+        @apply bg-black text-white
+
+    }
+
+    .btn-secondary
+    {
+        @apply bg-[#d2ed72] text-black
+    }
+
+    .thin-border
+    {
+        @apply border border-black/40
+    }
+
+    .section-title
+    {
+        @apply text-5xl font-bold
+    }
+
+    .paragraph-text
+    {
+        @apply  w-[700px] text-[20px]  font-futura font-semibold
+    }
+}
+
+.carousel-container {
+
+
+  position: relative;
+  width: 1400px;
+  height: 500px;
+  margin: 50px auto;
+
+  transform-style: preserve-3d;
+}
+
+.carousel-item {
+  position: absolute;
+  width: 400px;
+  height: 200px;
+
+  line-height: 100px;
+  text-align: center;
+  font-size: 16px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.carousel-buttons {
+  text-align: center;
+  margin-top: 20px;
+  z-index: 100;
+}
+
+.cbutton {
+  margin-top: 300px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+  
+/* Regular */
+@font-face {
+    font-family: 'Futura';
+    src: url('/fonts/futur.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* Bold */
+  @font-face {
+    font-family: 'Futura';
+    src: url('/fonts/Futura Bold font.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  /* Bold Italic */
+  @font-face {
+    font-family: 'Futura';
+    src: url('/fonts/Futura Bold Italic font.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  /* Book */
+  @font-face {
+    font-family: 'Futura';
+    src: url('/fonts/Futura Book font.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  /* Book Italic */
+  @font-face {
+    font-family: 'Futura';
+    src: url('/fonts/Futura Book Italic font.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  /* Extra Black */
+  @font-face {
+    font-family: 'Futura';
+    src: url('/fonts/Futura Extra Black font.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  /* Heavy */
+  @font-face {
+    font-family: 'Futura';
+    src: url('/fonts/Futura Heavy font.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  /* Heavy Italic */
+  @font-face {
+    font-family: 'Futura';
+    src: url('/fonts/Futura Heavy Italic font.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  /* Light */
+  @font-face {
+    font-family: 'Futura';
+    src: url('/fonts/futura light bt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  /* Light Italic */
+  @font-face {
+    font-family: 'Futura';
+    src: url('/fonts/Futura Light Italic font.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  /* Medium */
+  @font-face {
+    font-family: 'Futura';
+    src: url('/fonts/futura medium bt.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  /* Medium Italic */
+  @font-face {
+    font-family: 'Futura';
+    src: url('/fonts/Futura Medium Italic font.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  /* Condensed Light */
+  @font-face {
+    font-family: 'Futura Condensed';
+    src: url('/fonts/Futura-CondensedLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+
+    /* Condensed Light */
+    @font-face {
+        font-family: 'Futura Condensed';
+        src: url('/fonts/Futura-CondensedLight.otf') format('opentype');
+        font-weight: 300;
+        font-style: normal;
+      }
+      
+      @font-face {
+        font-family: 'Futura';
+        src: url('/fonts/Futura XBlk BT.ttf') format('truetype');
+        font-weight: 900;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: 'Futura Condensed';
+        src: url('/fonts/tt0205m_.ttf') format('truetype');
+        font-weight: 900; /* Extra Black weight */
+        font-style: italic; /* Italic style */
+      }
+
